@@ -3099,6 +3099,32 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
+	.skill {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill span.dots {
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    color: #888;
+}
+
+.skill span.dots::before {
+    content: '';
+    color: inherit;
+}
+
+.job-list > div {
+    padding: 6px 0;
+    border-left: 4px solid #ddd;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
 /* Pagination */
 
 	.pagination {
